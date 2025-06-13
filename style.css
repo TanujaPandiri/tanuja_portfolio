@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+   background-color: rgb(216, 156, 16);
+  font-style: normal;
+}
+/* Global Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: darksalmon;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.nav-bar{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+    background-color: azure;
+}
+.menu-bar{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 200px;
+}
+.name{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 700;
+    color: darksalmon;
+}
+.sec-main{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.image{ 
+   width: 300px;         
+   height: 450px;        
+    border-radius: 100px;   
+  overflow: hidden;      
+  /* border: 2px solid darksalmon; */
+  filter: drop-shadow(0 0 10px rgb(225, 212, 99));
+   
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     
+}
+.sec1{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+/* .sec2{
+    padding-top: 50px;
+} */
+.sp1{
+    font-size: 13px;
+    font-weight: 700;
+}
+.sp2{
+    font-size: 18px;
+    font-weight: 700;
+ 
+}
+h1{
+    color: rgb(39, 8, 86);
+     font-weight: 700;
+     font-size: 200%;
+}
+
+.sec2 p{
+    width: 80%;
+}
+.sec2-2{
+    display: flex;
+    gap: 20px;
+}
+.sec2-2 > :nth-child(1){
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 650px;
+    border: 2px solid black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.sec2-2 > :nth-child(1):hover{
+     background-color: black;
+     color: white;
+}
+.sec2-2 > :nth-child(2){
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 650px;
+    border: 2px solid black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.sec2-2 > :nth-child(2):hover{
+     background-color: black;
+     color: white;
+}
+.social{
+    display: flex;
+    padding-top: 7px;
+    gap: 20px;
+}
+.social img{
+    width: 30px;
+      transition: all 0.3s ease;
+}
+.social img:hover{
+    transform: scale(0.9);
+}
+.about-sec{
+    height: auto;
+    width: 1000px;
+    border-radius: 10px;
+    border: 3px solid blanchedalmond;
+    padding: 6px;
+    margin-left: 85px;
+     margin-right: 10px;
+    /* width: fit-content; */
+}
+.projects-sec{
+    height: auto;
+    width: 1000px;
+    border-radius: 10px;
+    border: 3px solid blanchedalmond;
+    margin-left: 85px;
+     margin-right: 10px;
+    padding-left: 10px;
+    /* width: fit-content; */
+}
+.projects-sec a:hover{
+    text-decoration: underline;
+    color: rgb(227, 57, 10);
+    font-weight: 600;
+}
+
+ 
+/* Skills Section */
+ .skills-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.skill {
+  text-align: center;
+  width: 100px;
+}
+
+.skill img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.skill p {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
+} 
+
+.skil_cert-sec{
+    height: auto;
+    width: 1000px;
+    border-radius: 10px;
+    border: 3px solid blanchedalmond;
+    margin-left: 85px;
+     margin-right: 10px;
+    padding: 6px;
+    /* width: fit-content; */
+}
+.achv-sec{
+    height: auto;
+    width: 1000px;
+    border-radius: 10px;
+    border: 3px solid blanchedalmond;
+    margin-left: 85px;
+    margin-right: 10px;
+    padding: 6px;
+    /* width: fit-content; */
+}
+.footer {
+  background-color: #b1b0b0;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #363636;
+  margin-top: 50px;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
